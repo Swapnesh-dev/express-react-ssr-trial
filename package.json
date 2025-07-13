@@ -1,0 +1,28 @@
+{
+  "name": "express-react-ssr-trial",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "esbuild client.tsx --bundle --outfile=public/client.js --loader:.tsx=tsx",
+    "start": "pnpm run build && ts-node src/index.ts",
+    "dev": "cross-env NODE_ENV=development tsup --watch"
+  },
+  "dependencies": {
+    "@scaflo/ui": "0.1.0-alpha.7",
+    "express": "^4.18.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.7.2",
+    "@types/react": "^18.3.23",
+    "@types/react-dom": "^18.0.14",
+    "cross-env": "^7.0.3",
+    "esbuild": "^0.18.11",
+    "ts-node": "^10.9.1",
+    "tsup": "^8.5.0",
+    "typescript": "^5.1.6"
+  }
+}
