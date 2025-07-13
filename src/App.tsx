@@ -14,7 +14,9 @@ const App = () => {
         Open
       </Button>
       <Modal size="md" isOpen={open} onClose={() => setOpen(false)}>
-        <ModalBody>gfxchvjbkj</ModalBody>
+        <ModalBody>
+          <h3 className="text-2xl">Hello world</h3>
+        </ModalBody>
         <Button onClick={() => setOpen(false)}>Close</Button>
       </Modal>
     </div>

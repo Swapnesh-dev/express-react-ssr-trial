@@ -59,9 +59,9 @@ var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__ge
   mod
 ));
 
-// node_modules/.pnpm/react@18.3.1/node_modules/react/cjs/react.development.js
+// node_modules/react/cjs/react.development.js
 var require_react_development = __commonJS({
-  "node_modules/.pnpm/react@18.3.1/node_modules/react/cjs/react.development.js"(exports, module) {
+  "node_modules/react/cjs/react.development.js"(exports, module) {
     "use strict";
     if (true) {
       (function() {
@@ -1933,9 +1933,9 @@ var require_react_development = __commonJS({
   }
 });
 
-// node_modules/.pnpm/react@18.3.1/node_modules/react/index.js
+// node_modules/react/index.js
 var require_react = __commonJS({
-  "node_modules/.pnpm/react@18.3.1/node_modules/react/index.js"(exports, module) {
+  "node_modules/react/index.js"(exports, module) {
     "use strict";
     if (false) {
       module.exports = null;
@@ -1945,9 +1945,9 @@ var require_react = __commonJS({
   }
 });
 
-// node_modules/.pnpm/scheduler@0.23.2/node_modules/scheduler/cjs/scheduler.development.js
+// node_modules/scheduler/cjs/scheduler.development.js
 var require_scheduler_development = __commonJS({
-  "node_modules/.pnpm/scheduler@0.23.2/node_modules/scheduler/cjs/scheduler.development.js"(exports) {
+  "node_modules/scheduler/cjs/scheduler.development.js"(exports) {
     "use strict";
     if (true) {
       (function() {
@@ -2395,9 +2395,9 @@ var require_scheduler_development = __commonJS({
   }
 });
 
-// node_modules/.pnpm/scheduler@0.23.2/node_modules/scheduler/index.js
+// node_modules/scheduler/index.js
 var require_scheduler = __commonJS({
-  "node_modules/.pnpm/scheduler@0.23.2/node_modules/scheduler/index.js"(exports, module) {
+  "node_modules/scheduler/index.js"(exports, module) {
     "use strict";
     if (false) {
       module.exports = null;
@@ -2407,9 +2407,9 @@ var require_scheduler = __commonJS({
   }
 });
 
-// node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom.development.js
+// node_modules/react-dom/cjs/react-dom.development.js
 var require_react_dom_development = __commonJS({
-  "node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom.development.js"(exports) {
+  "node_modules/react-dom/cjs/react-dom.development.js"(exports) {
     "use strict";
     if (true) {
       (function() {
@@ -23571,9 +23571,9 @@ var require_react_dom_development = __commonJS({
   }
 });
 
-// node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/index.js
+// node_modules/react-dom/index.js
 var require_react_dom = __commonJS({
-  "node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/index.js"(exports, module) {
+  "node_modules/react-dom/index.js"(exports, module) {
     "use strict";
     if (false) {
       checkDCE();
@@ -23584,9 +23584,9 @@ var require_react_dom = __commonJS({
   }
 });
 
-// node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/client.js
+// node_modules/react-dom/client.js
 var require_client = __commonJS({
-  "node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/client.js"(exports) {
+  "node_modules/react-dom/client.js"(exports) {
     "use strict";
     var m = require_react_dom();
     if (false) {
@@ -23615,9 +23615,9 @@ var require_client = __commonJS({
   }
 });
 
-// node_modules/.pnpm/react@18.3.1/node_modules/react/cjs/react-jsx-runtime.development.js
+// node_modules/react/cjs/react-jsx-runtime.development.js
 var require_react_jsx_runtime_development = __commonJS({
-  "node_modules/.pnpm/react@18.3.1/node_modules/react/cjs/react-jsx-runtime.development.js"(exports) {
+  "node_modules/react/cjs/react-jsx-runtime.development.js"(exports) {
     "use strict";
     if (true) {
       (function() {
@@ -24508,9 +24508,9 @@ var require_react_jsx_runtime_development = __commonJS({
   }
 });
 
-// node_modules/.pnpm/react@18.3.1/node_modules/react/jsx-runtime.js
+// node_modules/react/jsx-runtime.js
 var require_jsx_runtime = __commonJS({
-  "node_modules/.pnpm/react@18.3.1/node_modules/react/jsx-runtime.js"(exports, module) {
+  "node_modules/react/jsx-runtime.js"(exports, module) {
     "use strict";
     if (false) {
       module.exports = null;
@@ -24523,7 +24523,7 @@ var require_jsx_runtime = __commonJS({
 // src/client.tsx
 var import_client = __toESM(require_client(), 1);
 
-// node_modules/.pnpm/@scaflo+ui@0.1.0-alpha.7_react-dom@18.3.1_react@18.3.1/node_modules/@scaflo/ui/dist/index.js
+// node_modules/@scaflo/ui/dist/index.js
 var import_react = __toESM(require_react(), 1);
 var import_jsx_runtime = __toESM(require_jsx_runtime(), 1);
 var import_react_dom = __toESM(require_react_dom(), 1);
@@ -35339,7 +35339,7 @@ var App = () => {
       }
     ),
     /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)(Modal, { size: "md", isOpen: open, onClose: () => setOpen(false), children: [
-      /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(ModalBody, { children: "gfxchvjbkj" }),
+      /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(ModalBody, { children: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("h3", { className: "text-2xl", children: "Hello world" }) }),
       /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(Button, { onClick: () => setOpen(false), children: "Close" })
     ] })
   ] });
@@ -35348,10 +35348,7 @@ var App_default = App;
 
 // src/client.tsx
 var import_jsx_runtime3 = __toESM(require_jsx_runtime(), 1);
-(0, import_client.hydrateRoot)(
-  document.getElementById("root"),
-  /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(App_default, {})
-);
+(0, import_client.hydrateRoot)(document.getElementById("root"), /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(App_default, {}));
 /*! Bundled license information:
 
 react/cjs/react.development.js:

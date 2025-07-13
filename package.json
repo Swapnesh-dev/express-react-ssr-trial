@@ -6,9 +6,12 @@
   "scripts": {
     "build": "esbuild client.tsx --bundle --outfile=public/client.js --loader:.tsx=tsx",
     "start": "pnpm run build && ts-node src/index.ts",
-    "dev": "cross-env NODE_ENV=development tsup --watch"
+    "dev": "cross-env NODE_ENV=development tsup --watch",
+    "lint": "eslint . --fix",
+    "format": "prettier --write ."
   },
   "dependencies": {
+    "@scaflo/node-react-wrapper": "^0.1.0-alpha.8",
     "@scaflo/ui": "0.1.0-alpha.7",
     "express": "^4.18.2",
     "react": "^18.2.0",
@@ -19,8 +22,11 @@
     "@types/node": "^20.7.2",
     "@types/react": "^18.3.23",
     "@types/react-dom": "^18.0.14",
+    "@typescript-eslint/eslint-plugin": "^8.36.0",
+    "@typescript-eslint/parser": "^8.36.0",
     "cross-env": "^7.0.3",
     "esbuild": "^0.25.0",
+    "prettier": "^3.6.2",
     "ts-node": "^10.9.1",
     "tsup": "^8.5.0",
     "typescript": "^5.1.6"
